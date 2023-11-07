@@ -1,0 +1,31 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/apartamento.css");
+@import url("styles/vagas.css");
+@import url("styles/dev.css");
+@import url("styles/depoimento.css");
+@import url("styles/rodape.css");
+
+
+
+
+:root{
+    --cor-de-fundo: #ffffff;
+    --fonte-principal:"inter";
+    --cinza--escuro: #3A404E;
+    --cinza--claro: #667085;
+    --bordo: #8E2424;
+    --cinza: #101828;
+}
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.img_fundo{
+    background-image:url(../assets/2023-10-06.png);
+}

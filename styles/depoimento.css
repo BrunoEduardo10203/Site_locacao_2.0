@@ -1,0 +1,38 @@
+
+
+.depoimento{
+    background: #C3191908;
+    margin:  4em 10em;
+    text-align: center;
+    border: transparent;
+    border-radius: 20px;
+    padding: 4em;
+}
+
+.depoimento__subtitulo{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--bordo);
+}
+
+.depoimento__titulo{
+    font-size: 36px;
+    color: #101828;
+    padding: 1em 6em;
+}
+
+.depoimento__nome{
+    font-size: 16px;
+    color: var(--cinza);
+    padding: 2em 0;
+}
+
+.depoimento__funçao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza--claro);
+}
+
+.depoimento__container{
+    padding: 1em 0;
+}
