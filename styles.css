@@ -10,10 +10,12 @@
 
 
 :root{
+    --cor-verde: #3A4D39;
     --cor-de-fundo: #ffffff;
-    --fonte-principal:"inter";
+    --fonte-inter:"inter";
+    --fonte-dancing:"Dancing Script";
     --cinza--escuro: #3A404E;
-    --cinza--claro: #667085;
+    --bege: #F3EEEA;
     --bordo: #8E2424;
     --cinza: #101828;
 }
@@ -21,11 +23,15 @@
 
 body{
     background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-dancing);
     font-size: 18px;
     font-weight: 500;
 }
 
 .img_fundo{
-    background-image:url(../assets/2023-10-06.png);
+    background-image:url(../assets/quarto.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1900px 900px;
 }
+

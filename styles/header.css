@@ -16,26 +16,33 @@
 
 .cabecalho__titulo{
     align-self: center;
-    color: var(--cor-de-fundo);
-    padding: 0 0.4em;
+    color: var(--cinza);
+    font-size: 35px;
+    font-weight: 700;
 }
 
 .cabecalho__link{
-    padding: 0 1em;
-    color: var(--cor-de-fundo);
-    font-size: 16px;
+    margin-left: 3em;
+    color: var(--cor-verde);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .botao{
     font-size: 16px;
     text-decoration: none;
-    background-color: var(--cinza--claro);
-    color: var(--cor-de-fundo);
+    background-color: var(--bege);
+    color: var(--cor-verde);
     padding: 0.8em 1em;
     border-radius: 15px;
+    font-weight: 700;
+}
+
+.cabecalho__link{
+    padding: 0em 1em;
 }
 
 .cabecalho__lista{
     margin-right: auto;
-    padding: 0 5em;
+    padding: 0 4em;
 }
