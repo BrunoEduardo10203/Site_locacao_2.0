@@ -1,30 +1,17 @@
 
 
-.apartamento__container{
+.apartamentos{
     display: flex;
-    padding: 1em 8em;
+    padding: 3em 8em;
 }
 
-.apartamento__um{
-    background-image: url(../assets/apartamento_105.png);
-    background-size: 100%;
-    margin:  0 2em;
-    
+.ap_juliana{
+    border-radius: 1.5em;
+    width: 270px;
+    height: 250px;
 }
 
 
-.apartamento__subtitulo{
-    color: var(--cinza);
-    padding: 1em 0;
-}
-
-.apartamento__paragrafo{
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--cinza--claro);
-
-}
-
-.apartamento__um{
+.apartamento__container{
     padding: 0 6em;
 }
