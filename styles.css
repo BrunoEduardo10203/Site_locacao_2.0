@@ -5,6 +5,7 @@
 @import url("styles/dev.css");
 @import url("styles/depoimento.css");
 @import url("styles/rodape.css");
+@import url("styles/footer.css");
 
 
 
@@ -16,7 +17,7 @@
     --fonte-dancing:"Dancing Script";
     --cinza--escuro: #3A404E;
     --bege: #F3EEEA;
-    --bordo: #8E2424;
+    --verde-clarinho: #739072;
     --cinza: #101828;
 }
 

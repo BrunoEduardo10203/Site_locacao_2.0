@@ -1,17 +1,16 @@
-
-
 .apartamentos{
     display: flex;
-    padding: 3em 8em;
+    padding: 3em 10em;
 }
-
-.ap_juliana{
-    border-radius: 1.5em;
-    width: 270px;
-    height: 250px;
-}
-
 
 .apartamento__container{
-    padding: 0 6em;
+    margin: auto;
+
 }
+
+.ap_item{
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
