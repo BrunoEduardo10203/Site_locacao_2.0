@@ -1,0 +1,24 @@
+.icones{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em 25em;
+
+}
+
+.icones_item{
+    border-radius: 1em;
+    padding: 1em 1em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.item_paragrafo{
+    display: flex;
+    align-items: center;
+}

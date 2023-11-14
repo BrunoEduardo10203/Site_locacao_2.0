@@ -1,11 +1,9 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/apartamento.css");
-@import url("styles/vagas.css");
-@import url("styles/dev.css");
-@import url("styles/depoimento.css");
-@import url("styles/rodape.css");
 @import url("styles/footer.css");
+@import url("styles/comodidades.css");
+@import url("styles/icones.css");
 
 
 
@@ -13,11 +11,11 @@
 :root{
     --cor-verde: #3A4D39;
     --cor-de-fundo: #ffffff;
-    --fonte-inter:"inter";
+    --fonte-Kaushan:"Kaushan Script";
     --fonte-dancing:"Dancing Script";
     --cinza--escuro: #3A404E;
     --bege: #F3EEEA;
-    --verde-clarinho: #739072;
+    --bege-footer: #B3A492;
     --cinza: #101828;
 }
 
