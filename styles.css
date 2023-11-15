@@ -4,6 +4,7 @@
 @import url("styles/footer.css");
 @import url("styles/comodidades.css");
 @import url("styles/icones.css");
+@import url("styles/descricao.css");
 
 
 
@@ -13,6 +14,7 @@
     --cor-de-fundo: #ffffff;
     --fonte-Kaushan:"Kaushan Script";
     --fonte-dancing:"Dancing Script";
+    --fonte-Nunito:"Nunito Sans";
     --cinza--escuro: #3A404E;
     --bege: #F3EEEA;
     --bege-footer: #B3A492;

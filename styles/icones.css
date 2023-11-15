@@ -6,7 +6,6 @@
 }
 
 .icones_item{
-    border-radius: 1em;
     padding: 1em 1em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -21,4 +20,22 @@
 .item_paragrafo{
     display: flex;
     align-items: center;
+}
+
+.item_disponibilidade{
+    border-radius: 0 0 0 1vw;
+}
+
+
+.item_praticidade{
+    border-radius: 0 1vw 0 0;
+}
+
+.apartamento_local_nota{
+    display: flex;
+}
+
+.nota{
+    margin-left: 3.5vw;
+    font-size: 16px;
 }
