@@ -1,36 +1,43 @@
 .apartamentos{
     display: flex;
-    padding: 3em 10em;
+    padding: 5em 10em;
+    
 }
 
 .apartamento__container{
     margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 .ap_item{
-    border-radius: 3vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     height: 230px;
     width: 230px;
-    padding: 0 1em;
+    margin: 0 0 1vw 0;
 }
 
 .item_location{
     height: 19px;
     width: 19px;
     align-items: center;
-    margin-left: 2vw;
 }
 
 .apartamento_nota{
-    padding-left: 3vw;
+    padding-left: 4.7vw;
     font-family: var(--fonte-Nunito);
-    display: flex;
-    align-items: flex-end;
 }
 
 .apartamento_cidade{
     font-family:var(--fonte-Nunito);
     font-size: 0.8vw;
+    padding: 0 0 1vw 0;
+}
+
+.apartamento_cidade_canela{
+    padding-left: 5.5vw;
+    font-family: var(--fonte-Nunito);
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
