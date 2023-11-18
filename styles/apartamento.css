@@ -33,6 +33,7 @@
     font-family:var(--fonte-Nunito);
     font-size: 0.8vw;
     padding: 0 0 1vw 0;
+    text-decoration: none;
 }
 
 .apartamento_cidade_canela{

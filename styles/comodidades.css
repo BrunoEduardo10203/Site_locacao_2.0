@@ -4,10 +4,6 @@
     padding: 4em;
 }
 
-.apartamento_descricao{
-    
-}
-
 .apartamento_titulo{
     padding: 0 3em;
     font-size: 50px;
@@ -22,3 +18,4 @@
     color: var(--cor-verde);
     text-align: center;
 }
+
