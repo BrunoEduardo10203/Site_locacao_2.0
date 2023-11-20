@@ -8,6 +8,9 @@
 .icones_item{
     padding: 1em 1em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .item{
@@ -17,10 +20,6 @@
     height: 3.5vw;
 }
 
-.item_paragrafo{
-    display: flex;
-    align-items: center;
-}
 
 .item_disponibilidade{
     border-radius: 0 0 0 1vw;
