@@ -1,0 +1,42 @@
+
+.cabecalho_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    align-items: center;
+    background-color: var(--bege-footer);
+}
+
+.cabecalho__container_aps{
+    display: flex;
+}
+
+.cabecalho__titulo_aps{
+    align-self: center;
+    color: var(--cinza);
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--bege);
+}
+
+.button-89{
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.cabecalho__link_aps{
+    padding: 0em 1em;
+    text-decoration: none;
+}
+
+.cabecalho__lista_aps{
+    margin-right: auto;
+    padding: 0 4em;
+}
+
+.cabecalho__link_aps{
+    margin-left: 3em;
+    color: var(--bege);
+    font-size: 20px;
+    font-weight:700;
+}
