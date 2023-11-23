@@ -17,7 +17,7 @@
 .cabecalho__titulo{
     align-self: center;
     color: var(--cinza);
-    font-size: 35px;
+    font-size: 2.18rem;
     font-weight: 700;
     color: var(--bege);
 }
@@ -25,17 +25,17 @@
 .cabecalho__link{
     margin-left: 3em;
     color: var(--cor-verde);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
 .botao{
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     background-color: var(--bege);
     color: var(--cor-verde);
     padding: 0.8em 1em;
-    border-radius: 15px;
+    border-radius: 1rem;
     font-weight: 700;
 }
 
@@ -46,4 +46,8 @@
 .cabecalho__lista{
     margin-right: auto;
     padding: 0 4em;
+}
+
+@media (max-width: 1450px){
+    
 }

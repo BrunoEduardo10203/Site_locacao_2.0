@@ -6,7 +6,7 @@
 
 .apartamento_titulo{
     padding: 0 3em;
-    font-size: 50px;
+    font-size: 3.12rem;
     text-align: center;
     margin-left: 4em;
     color: var(--cor-verde);
@@ -14,7 +14,7 @@
 
 .apartamento_texto{
     padding:  0 10em;
-    font-size: 25px;
+    font-size: 1.56rem;
     color: var(--cor-verde);
     text-align: center;
 }

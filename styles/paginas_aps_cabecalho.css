@@ -14,7 +14,7 @@
 .cabecalho__titulo_aps{
     align-self: center;
     color: var(--cinza);
-    font-size: 35px;
+    font-size: 2.18rem;
     font-weight: 700;
     color: var(--bege);
 }
@@ -37,6 +37,6 @@
 .cabecalho__link_aps{
     margin-left: 3em;
     color: var(--bege);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight:700;
 }

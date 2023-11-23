@@ -1,26 +1,29 @@
+body{
+    max-width: 100%;
+}
 .apartamentos{
     display: flex;
-    padding: 5em 10em;
+    margin: 5em 10em;
     
 }
 
 .apartamento__container{
     margin: auto;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    border-radius: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.18) 0rem 2px 4px;
 }
 
 .ap_item{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 230px;
-    width: 230px;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    height: 14.37rem;
+    width: 14.8rem;
     margin: 0 0 1vw 0;
 }
 
 .item_location{
-    height: 19px;
-    width: 19px;
+    height: 1.18rem;
+    width: 1.18rem;
     align-items: center;
 }
 
@@ -42,3 +45,4 @@
     display: flex;
     justify-content: flex-end;
 }
+

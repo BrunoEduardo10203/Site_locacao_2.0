@@ -3,7 +3,8 @@
     font-family:var(--fonte-Nunito);
     font-weight: 700;
     font-size: 1.3vw;
-    padding-top: 2vw;
+    margin-top: 2vw;
+    align-items: flex-end;
 }
 
 
@@ -13,20 +14,20 @@
 }
 
 .apartamento_nome{
-    padding: 0 16vw 0 0;
+    margin: 0 16vw 0 0;
 }
 
 .apartamento_fotos{
     display: flex;
     align-items: center;
-    margin: 2vw 25vw;
+    margin: 1vw 25vw;
     gap: 7px;
 
 }
 
 .apartamento_item_grande{
-    width: 550px;
-    height: 557px;
+    width: 34.37rem;
+    height: 34.81rem;
     border-top-left-radius: 1vw;
     border-bottom-left-radius: 1vw;
 }
@@ -34,12 +35,12 @@
 .apartamento_item_menor{
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 0.43rem;
 }
 
 .apartamento_item{
-    width: 250px;
-    height: 275px;
+    width: 15.62rem;
+    height: 17.18rem;
     
 }
 
@@ -49,4 +50,30 @@
 
 .apartamento_item_quatro{
     border-bottom-right-radius: 1vw;
+}
+
+.apartamento__img{
+    width: 1.2rem;
+
+}
+
+.apartamento_compartilhar{
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.apartamento_salvar{
+    font-size: 1rem;
+}
+
+.atributos{
+    display: flex;
+}
+
+.atributos__container{
+    width: 50%;
+}
+
+.atributos__diarias{
+    width: 50%;
 }
