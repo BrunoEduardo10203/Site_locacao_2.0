@@ -24,19 +24,14 @@
     text-decoration: none;
 }
 
-.cabecalho__link_aps{
-    padding: 0em 1em;
-    text-decoration: none;
-}
-
 .cabecalho__lista_aps{
     margin-right: auto;
-    padding: 0 4em;
+    padding: 0 0 0 1rem;
 }
 
 .cabecalho__link_aps{
-    margin-left: 3em;
+    margin-left: 20rem;
     color: var(--bege);
     font-size: 1.25rem;
-    font-weight:700;
+    font: weight 400px;;
 }

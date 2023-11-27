@@ -66,14 +66,64 @@
     font-size: 1rem;
 }
 
+/* ATRIBUTOS */
+
 .atributos{
     display: flex;
+    font-family: var(--fonte-Nunito)
 }
 
 .atributos__container{
-    width: 50%;
+    width: 30%;
+    margin-left: 30rem;
 }
 
+.atributos__titulo_ap{
+    font-weight: 700;
+}
+
+.atributos__titulo{
+    margin-right: 17rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.atributos__titulo_descricao{
+    width: 22rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+
+    
+}
+
+.atributos__dormitorio{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    font-weight: 700;
+}
+
+.atributos__comodidades{
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 700;
+}
+
+
 .atributos__diarias{
-    width: 50%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+    width: 17%;
+    height: 25rem;
+    margin-left: 3.1rem;
+}
+
+.atributos__diarias_preco{
+    font-family: var(--fonte-Nunito);
+    font-weight: 700;
+    margin-top: 1rem;
+    
 }
