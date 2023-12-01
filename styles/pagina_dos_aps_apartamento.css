@@ -98,11 +98,19 @@
     
 }
 
-.atributos__dormitorio{
+.atributos__dormitorios{
+    display: flex;
+}
+
+.atributos__dormitorio__titulo{
     display: flex;
     flex-wrap: nowrap;
     margin-top: 4rem;
     font-weight: 700;
+}
+
+.atributos__dormitorios__img{
+    width: auto;
 }
 
 .atributos__comodidades{
