@@ -78,48 +78,84 @@
     margin-left: 30rem;
 }
 
-.atributos__titulo_ap{
-    font-weight: 700;
+.atributos__titulo{
+   display: flex;
+   flex-direction: column;
 }
 
-.atributos__titulo{
-    margin-right: 17rem;
-    display: flex;
-    flex-direction: column;
-    
+.atributos__titulo_ap{
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .atributos__titulo_descricao{
-    width: 22rem;
-    margin-top: 0.5rem;
-    display: flex;
-    flex-wrap: nowrap;
-
+    align-self: flex-start;
+    margin: 0.5rem 0 3rem 0;
     
 }
 
-.atributos__dormitorios{
-    display: flex;
-}
+/* ATRIBUTOS DORMITORIOS */
 
 .atributos__dormitorio__titulo{
     display: flex;
     flex-wrap: nowrap;
     margin-top: 4rem;
+    padding-left: 1rem;
     font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 19px;
 }
 
-.atributos__dormitorios__img{
-    width: auto;
+.atributos__dormitorios__quartos{
+    display: flex;
 }
+
+.swiper{
+    margin-bottom: 4rem;
+}
+
+
+
+.swiper-slide img{
+    border-radius: 10px;
+    width: 260px;
+    height: 240px;
+    margin-bottom: 1.3rem;
+}
+
+.swiper__quarto{
+    font-weight: 700;
+    display: flex;
+    padding-left: 1.2rem;
+    margin-bottom: .4rem;
+}
+
+.swiper__camas{
+    display: flex;
+    padding-left: 1.2rem;
+    font-size: 14px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    display: none;
+}
+
+/* ATRIBUTOS COMODIDADES */
 
 .atributos__comodidades{
-    justify-content: flex-start;
     display: flex;
-    flex-wrap: nowrap;
+    align-self: flex-start;
+    padding-left: 1rem;
+    margin: 2rem 0;
     font-weight: 700;
+    font-size: 19px;
+    
+    
 }
 
+/* ATRIBUTOS QUADRO DE PRESÇOS */
 
 .atributos__diarias{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;

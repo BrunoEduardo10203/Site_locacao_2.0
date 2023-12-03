@@ -1,14 +1,22 @@
 
 .cabecalho_menu{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     padding: 1em 2em;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--bege-footer);
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
-.cabecalho__container_aps{
-    display: flex;
+.cabecalho__titulo_aps{
+    padding-left: 6rem;
+    text-decoration: none;
+}
+
+.cabecalhoBtn{
+    color: var(--bege);
+    margin-right: 10rem;
 }
 
 .cabecalho__titulo_aps{
@@ -24,14 +32,10 @@
     text-decoration: none;
 }
 
-.cabecalho__lista_aps{
-    margin-right: auto;
-    padding: 0 0 0 1rem;
-}
 
 .cabecalho__link_aps{
-    margin-left: 20rem;
-    color: var(--bege);
+    color: var(--cor-verde);
     font-size: 1.25rem;
-    font: weight 400px;;
+    font: weight 400px;
+    text-decoration: none;
 }
