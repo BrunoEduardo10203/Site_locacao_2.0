@@ -84,6 +84,7 @@
 }
 
 .atributos__titulo_ap{
+
     align-self: flex-start;
     font-weight: 700;
     font-size: 20px;
@@ -144,15 +145,35 @@
 
 /* ATRIBUTOS COMODIDADES */
 
-.atributos__comodidades{
+.atributos__comodidade__titulo{
     display: flex;
     align-self: flex-start;
-    padding-left: 1rem;
-    margin: 2rem 0;
+    padding: 0 19rem 0 0;
+    margin: 2rem 0 3rem 0;
     font-weight: 700;
-    font-size: 19px;
-    
-    
+    font-size: 22px;
+}
+
+.atributos__comodidades__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.atributos__comodidades__item{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0 10rem 2rem .6rem;
+}
+
+.atributos__comodidades__item img{
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 0;
 }
 
 /* ATRIBUTOS QUADRO DE PRESÇOS */

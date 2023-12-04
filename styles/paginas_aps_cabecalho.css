@@ -39,3 +39,15 @@
     font: weight 400px;
     text-decoration: none;
 }
+
+.busca{
+    padding: .6rem 6rem;
+    border-radius: 20px;
+    border: 1px solid var(--bege);
+}
+
+::placeholder{
+    color: var(--cor-verde);
+    font-family: var( --fonte-dancing);
+    font-size: 14px;  
+}
