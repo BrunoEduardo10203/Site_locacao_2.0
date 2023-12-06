@@ -1,12 +1,11 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/apartamento.css");
-@import url("styles/footer.css");
-@import url("styles/comodidades.css");
-@import url("styles/icones.css");
-@import url("styles/descricao.css");
-@import url("styles/pagina_dos_aps_apartamento.css");
-@import url("styles/paginas_aps_cabecalho.css");
+@import url("index/header.css");
+@import url("index/banner.css");
+@import url("index/apartamento.css");
+@import url("footer.css");
+@import url("index/comodidades.css");
+@import url("index/icones.css");
+@import url("apartamento_informacoes/apartamento__informacoes.css");
+@import url("apartamento_informacoes/apartamento__cabecalho.css");
 
 body{
     background-color: var(--cor-de-fundo);
@@ -36,7 +35,7 @@ body{
 
 
 .img_fundo{
-    background-image:url(../assets/quarto.png);
+    background-image:url(../images/quarto.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
