@@ -1,0 +1,27 @@
+.atributos{
+    display: flex;
+    font-family: var(--fonte-Nunito)
+}
+
+.atributos__container{
+    width: 30%;
+    margin-left: 30rem;
+}
+
+.atributos__titulo{
+   display: flex;
+   flex-direction: column;
+}
+
+.atributos__titulo__ap{
+
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.atributos__titulo__descricao{
+    align-self: flex-start;
+    margin: 0.5rem 0 3rem 0;
+    
+}

@@ -1,0 +1,32 @@
+.atributos__comodidades__titulo{
+    display: flex;
+    align-self: flex-start;
+    padding: 0 19rem 0 0;
+    margin: 2rem 0 3rem 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.atributos__comodidades__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.atributos__comodidades__item{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    padding: 0 10rem 2rem .6rem;
+    font-size: 13px;
+}
+
+.atributos__comodidades__item img{
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 0;
+}

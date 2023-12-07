@@ -11,7 +11,7 @@
     box-shadow: rgba(0, 0, 0, 0.18) 0rem 2px 4px;
 }
 
-.ap_item{
+.ap__item{
     border-top-left-radius: 1.25rem;
     border-top-right-radius: 1.25rem;
     height: 14.37rem;
@@ -19,25 +19,25 @@
     margin: 0 0 1vw 0;
 }
 
-.item_location{
+.item__location{
     height: 1.18rem;
     width: 1.18rem;
     align-items: center;
 }
 
-.apartamento_nota{
+.apartamento__nota{
     padding-left: 4.7vw;
     font-family: var(--fonte-Nunito);
 }
 
-.apartamento_cidade{
+.apartamento__cidade{
     font-family:var(--fonte-Nunito);
     font-size: 0.8vw;
     padding: 0 0 1vw 0;
     text-decoration: none;
 }
 
-.apartamento_cidade_canela{
+.apartamento__cidade__canela{
     padding-left: 5.5vw;
     font-family: var(--fonte-Nunito);
     display: flex;

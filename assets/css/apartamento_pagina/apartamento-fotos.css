@@ -1,0 +1,66 @@
+.apartamento__titulo__aps{
+    font-family:var(--fonte-Nunito);
+    font-weight: 700;
+    font-size: 1.3vw;
+    margin-top: 2vw;
+    align-items: flex-end;
+}
+
+
+.apartamento__descricao__aps{
+    width: 100%;
+    text-align: center;
+}
+
+.apartamento__nome{
+    margin: 0 16vw 0 0;
+}
+
+.apartamento__fotos{
+    display: flex;
+    align-items: center;
+    margin: 1vw 25vw;
+    gap: 7px;
+
+}
+
+.apartamento__item__grande{
+    width: 34.37rem;
+    height: 34.81rem;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+}
+
+.apartamento__item__menor{
+    display: flex;
+    flex-direction: column;
+    gap: 0.43rem;
+}
+
+.apartamento__item{
+    width: 15.62rem;
+    height: 17.18rem;
+    
+}
+
+.apartamento__item__tres{
+    border-top-right-radius: 1vw;
+}
+
+.apartamento__item__quatro{
+    border-bottom-right-radius: 1vw;
+}
+
+.apartamento__img{
+    width: 1.2rem;
+
+}
+
+.apartamento__compartilhar{
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.apartamento__salvar{
+    font-size: 1rem;
+}

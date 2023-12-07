@@ -1,18 +1,21 @@
-@import url("index/header.css");
-@import url("index/banner.css");
+@import url("index/header/header.css");
+@import url("index/header/banner.css");
 @import url("index/apartamento.css");
 @import url("footer.css");
 @import url("index/comodidades.css");
 @import url("index/icones.css");
-@import url("apartamento_informacoes/apartamento__informacoes.css");
-@import url("apartamento_informacoes/apartamento__cabecalho.css");
+@import url("apartamento_pagina/apartamento-menu.css");
+@import url("apartamento_pagina/apartamento-precos.css");
+@import url("apartamento_pagina/apartamento-fotos.css");
+@import url("apartamento_pagina/apartamento-dormitorio.css");
+@import url("apartamento_pagina/apartamento-atributos.css");
+@import url("apartamento_pagina/apartamento-equipamentos.css");
 
 body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-dancing);
     font-size: 1rem;
     width: 100%;
-    box-sizing: border-box;
 
 }
 
@@ -31,13 +34,9 @@ body{
     
 }
 
-
-
-
-.img_fundo{
+.menu__img{
     background-image:url(../images/quarto.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
-

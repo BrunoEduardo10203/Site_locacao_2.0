@@ -5,13 +5,13 @@
     padding: 1em;
 }
 
-.footer_texto{
+.footer__texto{
     padding: 1em;
     color: var(--bege);
     font-size: 25px;
 }
 
-.email_titulo{
+.email__titulo{
     color: var(--bege);
 }
 

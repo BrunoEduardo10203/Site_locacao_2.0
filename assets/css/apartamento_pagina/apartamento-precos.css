@@ -1,0 +1,69 @@
+
+
+/* ATRIBUTOS QUADRO DE PRESÇOS */
+
+.atributos__diarias{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+    width: 17%;
+    height: 28rem;
+    margin-left: 3.1rem;
+}
+
+.atributos__diarias__preco{
+    font-family: var(--fonte-Nunito);
+    font-weight: 700;
+    margin: 1rem 1rem;
+    display: flex;
+    align-self: flex-start;
+}
+
+.atributos__calendario{
+    padding: 1rem ;
+    border-radius: 5px;
+}
+
+.atributos__ocupantes__titulo{
+    padding: 1rem 0 0 0;    
+}
+
+.atributos__acupantes{
+    padding: .5rem 8.4rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.reservar{
+    margin-top: 1rem;
+}
+
+.atributos__reservarBtn{
+    background-color: rgb(146, 21, 21);
+    color: white;
+    padding: .5rem 7rem;
+    margin: 1rem 0rem;
+    border-radius: 10px;
+}
+
+.atributos__reservar__preco{
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+.diarias__precos{
+    margin-top: 1.2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: space-between;
+}
+
+.diarias__precos__item{
+    margin: .5rem .9rem;
+}
+
+.item__esquerdo{
+    border-bottom: 1px solid black;
+}
