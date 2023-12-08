@@ -1,10 +1,10 @@
-.apartamento__comodidades{
+.texto{
     display: flex;
     font-family: var(--fonte-Kaushan);
     padding: 4em;
 }
 
-.apartamento__titulo{
+.texto__titulo{
     padding: 0 3em;
     font-size: 3.12rem;
     text-align: center;
@@ -12,7 +12,7 @@
     color: var(--cor-verde);
 }
 
-.apartamento__texto{
+.texto__item{
     padding:  0 10em;
     font-size: 1.56rem;
     color: var(--cor-verde);

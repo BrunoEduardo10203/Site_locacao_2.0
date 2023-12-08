@@ -1,3 +1,8 @@
+.apartamento__descricao__aps{
+    width: 100%;
+    text-align: center;
+}
+
 .apartamento__titulo__aps{
     font-family:var(--fonte-Nunito);
     font-weight: 700;
@@ -7,13 +12,22 @@
 }
 
 
-.apartamento__descricao__aps{
-    width: 100%;
-    text-align: center;
-}
-
 .apartamento__nome{
     margin: 0 16vw 0 0;
+}
+
+.apartamento__img{
+    width: 1.2rem;
+
+}
+
+.apartamento__compartilhar{
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.apartamento__salvar{
+    font-size: 1rem;
 }
 
 .apartamento__fotos{
@@ -51,16 +65,5 @@
     border-bottom-right-radius: 1vw;
 }
 
-.apartamento__img{
-    width: 1.2rem;
 
-}
 
-.apartamento__compartilhar{
-    margin-right: 2rem;
-    font-size: 1rem;
-}
-
-.apartamento__salvar{
-    font-size: 1rem;
-}
