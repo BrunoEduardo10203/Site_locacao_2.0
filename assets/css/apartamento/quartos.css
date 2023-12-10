@@ -1,4 +1,4 @@
-.atributos__dormitorio__titulo{
+.quartos__titulo{
     display: flex;
     flex-wrap: nowrap;
     margin-top: 4rem;
@@ -6,10 +6,6 @@
     font-weight: 700;
     margin-bottom: 1rem;
     font-size: 19px;
-}
-
-.atributos__dormitorios__quartos{
-    display: flex;
 }
 
 .swiper{

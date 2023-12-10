@@ -1,4 +1,4 @@
-.menu{
+.menu__index{
     display: flex;
     justify-content: space-between;
     padding: 1em 2em;
@@ -25,10 +25,7 @@
 
 .menu__link{
     text-decoration: none;
-}
-
-
-.menu__link{
+    padding: 0em 1em;
     margin-left: 3em;
     color: var(--cor-verde);
     font-size: 1.25rem;
@@ -44,12 +41,6 @@
     border-radius: 1rem;
     font-weight: 700;
 }
-
-.menu__link{
-    padding: 0em 1em;
-}
-
-
 
 @media (max-width: 1450px){
     

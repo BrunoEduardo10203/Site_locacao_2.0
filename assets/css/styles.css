@@ -1,15 +1,15 @@
-@import url("index/menu/menu.css");
-@import url("index/banner/banner.css");
-@import url("index/apartamentos/apartamento.css");
+@import url("index/menu.css");
+@import url("index/banner.css");
+@import url("index/apartamento.css");
+@import url("index/texto.css");
+@import url("index/icones.css");
+@import url("apartamento/menu.css");
+@import url("apartamento/precos.css");
+@import url("apartamento/fotos.css");
+@import url("apartamento/quartos.css");
+@import url("apartamento/descricao.css");
+@import url("apartamento/comodidades.css");
 @import url("footer.css");
-@import url("index/texto/texto.css");
-@import url("index/icones/icones.css");
-@import url("apartamento/apartamento-menu.css");
-@import url("apartamento/apartamento-precos.css");
-@import url("apartamento/apartamento-fotos.css");
-@import url("apartamento/apartamento-dormitorio.css");
-@import url("apartamento/apartamento-atributos.css");
-@import url("apartamento/apartamento-equipamentos.css");
 
 body{
     background-color: var(--cor-de-fundo);

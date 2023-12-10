@@ -1,0 +1,37 @@
+
+.menu{
+    align-items: center;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    background-color: var(--bege-footer);
+    display: flex;
+    padding: 1em 2em;
+    justify-content: space-evenly;
+    width: 96.6%;
+}
+
+.menu__titulo{
+    padding-left: 6rem;
+    text-decoration: none;
+}
+
+.menuBtn{
+    color: var(--bege);
+    margin-right: 10rem;
+}
+
+.button-89{
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menu__busca{
+    padding: .6rem 6rem;
+    border-radius: 20px;
+    border: 1px solid var(--bege);
+}
+
+::placeholder{
+    color: var(--cor-verde);
+    font-family: var( --fonte-dancing);
+    font-size: 14px;  
+}

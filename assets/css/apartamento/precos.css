@@ -1,8 +1,5 @@
 
-
-/* ATRIBUTOS QUADRO DE PRESÇOS */
-
-.atributos__diarias{
+.precos__diarias{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 10px;
     width: 17%;
@@ -10,7 +7,7 @@
     margin-left: 3.1rem;
 }
 
-.atributos__diarias__preco{
+.precos__diarias__preco{
     font-family: var(--fonte-Nunito);
     font-weight: 700;
     margin: 1rem 1rem;
@@ -18,26 +15,26 @@
     align-self: flex-start;
 }
 
-.atributos__calendario{
+.precos__calendario{
     padding: 1rem ;
     border-radius: 5px;
 }
 
-.atributos__ocupantes__titulo{
+.precos__ocupantes__titulo{
     padding: 1rem 0 0 0;    
 }
 
-.atributos__acupantes{
+.precos__hospedes{
     padding: .5rem 8.4rem;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
 }
 
-.reservar{
+.precos__reservar{
     margin-top: 1rem;
 }
 
-.atributos__reservarBtn{
+.precos__reservarBtn{
     background-color: rgb(146, 21, 21);
     color: white;
     padding: .5rem 7rem;
@@ -45,12 +42,18 @@
     border-radius: 10px;
 }
 
-.atributos__reservar__preco{
+.precos__reservarBtn:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: all .2s ease-in-out;
+}
+
+.precos__span{
     margin-top: 1rem;
     font-size: 12px;
 }
 
-.diarias__precos{
+.precos__container{
     margin-top: 1.2rem;
     align-items: center;
     flex-wrap: wrap;
@@ -60,10 +63,10 @@
     justify-content: space-between;
 }
 
-.diarias__precos__item{
+.precos__item{
     margin: .5rem .9rem;
 }
 
-.item__esquerdo{
+.precos__item--esquerdo{
     border-bottom: 1px solid black;
 }

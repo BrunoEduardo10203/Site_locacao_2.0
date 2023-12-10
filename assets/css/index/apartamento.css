@@ -1,4 +1,4 @@
-.apartamentos{
+.apartamento{
     display: flex;
     margin: 5em 10em;
     
@@ -18,7 +18,7 @@
     margin: 0 0 1vw 0;
 }
 
-.item__location{
+.apartamento__item__location{
     height: 1.18rem;
     width: 1.18rem;
     align-items: center;
@@ -36,7 +36,7 @@
     text-decoration: none;
 }
 
-.apartamento__cidade__canela{
+.apartamento__nota--canela{
     padding-left: 5.5vw;
     font-family: var(--fonte-Nunito);
     display: flex;

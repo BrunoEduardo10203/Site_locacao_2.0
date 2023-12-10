@@ -13,125 +13,116 @@
     </head>
 
     <body>
-        <header>
-            <nav class="cabecalho__menu"> 
-                <div class="cabecalho__container__aps">
-                    <a class="cabecalho__titulo__aps" href="index.html">Destino Serra</a>
-                </div>
-
-                <div class="cabecalho__lista__aps">
-                    <ul class="cabecalho__item__aps">
-                        <input type="search" class="busca" placeholder="Busque seu apartamento ideal">
-                    </ul>
-                </div>
-
-                <di class="cabecalho__cadastro">
-                    <a class="button-89 cabecalhoBtn" role="button" >Cadastrar</a>
-                </di>
-            </nav>
+        <header class="menu">
+                <a class="menu__titulo" href="index.html">Destino Serra</a>
+                <input type="search" class="menu__busca" placeholder="Busque seu apartamento ideal">
+                <a class="button-89 menuBtn" role="button" >Cadastrar</a>
         </header>
 
-        <main class="apartamento__descricao__aps">
-            <div class="apartamento__titulo__aps">
-                <a class="apartamento__nome">Apartamento próximo a Rua Coberta!</a>
-                <img class="apartamento__img" src="assets/images/icons/share.png" alt="Compartilhar">
-                <a class="apartamento__compartilhar">Compartilhar</a>
-                <img class="apartamento__img" src="assets/images/icons/love.png" alt="Salvar">
-                <a class="apartamento__salvar">Salvar</a>
+        <main class="fotos">
+            <div class="fotos__icones">
+                <a class="fotos__titulo">Apartamento próximo a Rua Coberta!</a>
+                <img class="fotos__icone" src="assets/images/icons/share.png" alt="Compartilhar">
+                <a class="fotos__compartilhar">Compartilhar</a>
+                <img class="fotos__icone" src="assets/images/icons/love.png" alt="Salvar">
+                <a class="fotos__salvar">Salvar</a>
             </div>
 
-            <figure class="apartamento__fotos">
-                <img class="apartamento__item__grande" alt="Rua Coberta" src="./assets/images/apartamento-juliana/juliana-borges-natal.webp">
+            <figure class="fotos__container">
+                <img class="fotos__item__grande" alt="Rua Coberta" src="./assets/images/apartamento-juliana/juliana-borges-natal.webp">
 
-                <div class="apartamento__item__menor">
-                    <img class="apartamento__item apartamento__item__um" alt="Interior__ap" src="./assets/images/apartamento-juliana/juliana-casal.webp">
-                    <img class="apartamento__item apartamento__item__dois" alt="Interior__ap" src="./assets/images/apartamento-juliana/juliana-sala-jantar.jpg">
+                <div class="fotos__item__menor">
+                    <img class="fotos__item fotos__item--um" alt="Interior__ap" src="./assets/images/apartamento-juliana/juliana-casal.webp">
+                    <img class="fotos__item fotos__item--dois" alt="Interior__ap" src="./assets/images/apartamento-juliana/juliana-sala-jantar.jpg">
                 </div>
                         
-                <div class="apartamento__item__menor">
-                    <img class="apartamento__item apartamento__item__tres" alt="Interior__ap" src="./assets/images/apartamento-juliana/juliana-sala.jpeg">
-                    <img class="apartamento__item apartamento__item__quatro" alt="Interior__ap" src="./assets/images/apartamento-juliana/juliana-suite.webp">
+                <div class="fotos__item__menor">
+                    <img class="fotos__item fotos__item--tres" alt="Interior__ap" src="./assets/images/apartamento-juliana/juliana-sala.jpeg">
+                    <img class="fotos__item fotos__item--quatro" alt="Interior__ap" src="./assets/images/apartamento-juliana/juliana-suite.webp">
                 </div>
             </figure>
 
-            <section class="atributos">
-                <div class="atributos__container">
-                    <div class="atributos__titulo">
-                        <h2 class="atributos__titulo__ap">Apartamento com vista para a Av.Borges</h2>
-                        <p class="atributos__titulo__descricao">6 hóspedes - 3 quartos - 4 camas - 2 banheiros</p>
+            <section class="descricao">
+                <div class="descricao__container">
+                    <div class="descricao__container__nome">
+                        <h2 class="descricao__titulo">Apartamento com vista para a Av.Borges</h2>
+                        <p class="descricao__quartos">6 hóspedes - 3 quartos - 4 camas - 2 banheiros</p>
                     </div>
+                   
                     <hr>
-                    <div class="atributos__dormitorios">
-                        <h2 class="atributos__dormitorio__titulo">Aonde você vai dormir</h2>
 
-                            <div class="swiper">
-                
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img src="assets/images/apartamento-juliana/juliana-suite.webp" alt="Suite">
-                                        <h3 class="swiper__quarto">Quarto 1</h3>
-                                        <span class="swiper__camas">1 cama casal</span>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="assets/images/apartamento-juliana/juliana-casal.webp" alt="Quarto de Casal">
-                                        <h3 class="swiper__quarto">Quarto 2</h3>
-                                        <span class="swiper__camas">1 cama casal</span>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="assets/images/apartamento-juliana/quarto-solteiro.jpg" alt="Quarto de solteiro">
-                                        <h3 class="swiper__quarto">Quarto 3</h3>
-                                        <span class="swiper__camas">2 camas solteiro</span>
-                                    </div>
+                    <div class="quartos">
+                        <h2 class="quartos__titulo">Aonde você vai dormir</h2>
+
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="assets/images/apartamento-juliana/juliana-suite.webp" alt="Suite">
+                                    <h3 class="swiper__quarto">Quarto 1</h3>
+                                    <span class="swiper__camas">1 cama casal</span>
                                 </div>
-                                
-                                <div class="swiper-button-prev"></div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-pagination"></div>   
+                                <div class="swiper-slide">
+                                    <img src="assets/images/apartamento-juliana/juliana-casal.webp" alt="Quarto de Casal">
+                                    <h3 class="swiper__quarto">Quarto 2</h3>
+                                    <span class="swiper__camas">1 cama casal</span>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/apartamento-juliana/quarto-solteiro.jpg" alt="Quarto de solteiro">
+                                    <h3 class="swiper__quarto">Quarto 3</h3>
+                                    <span class="swiper__camas">2 camas solteiro</span>
+                                </div>
                             </div>
+                                
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-pagination"></div>   
+                        </div>
                     </div>
+
                     <hr>
-                    <div class="atributos__comodidades">
-                        <h2 class="atributos__comodidades__titulo">O que esse lugar oferece</h2>
-                        <div class="atributos__comodidades__container">
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/garage-car.png">Garagem</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/tv-retro.png">TV</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/shower.png">Agua Quente</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/paw.png">Pet</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/wifi.png">Wi-fi</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/clothes-hanger.png">Cabides</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/air-conditioner_quarto.png">Ar-condicionado</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/key.png">Chave extra</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/restaurant.png">Cozinha</span>
-                            <span class="atributos__comodidades__item"><img src="assets/images/icons/map-marker.png">Ótima Localização</span>
+
+                    <div class="comodidades">
+                        <h2 class="comodidades__titulo">O que esse lugar oferece</h2>
+                        <div class="comodidades__container">
+                            <span class="comodidades__item"><img src="assets/images/icons/garage-car.png">Garagem</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/tv-retro.png">TV</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/shower.png">Agua Quente</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/paw.png">Pet</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/wifi.png">Wi-fi</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/clothes-hanger.png">Cabides</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/air-conditioner_quarto.png">Ar-condicionado</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/key.png">Chave extra</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/restaurant.png">Cozinha</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/map-marker.png">Ótima Localização</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="atributos__diarias">
-                    <h2 class="atributos__diarias__preco">R$600 noite</h2>
-                    <input type="date" class="atributos__calendario">
-                    <input type="date" class="atributos__calendario">
+                <div class="precos__diarias">
+                    <h2 class="precos__diarias__preco">R$600 noite</h2>
+                    <input type="date" class="precos__calendario">
+                    <input type="date" class="precos__calendario">
 
                     <form>
-                        <h3 class="atributos__ocupantes__titulo">Número de Ocupantes:</h3>
+                        <h3 class="precos__ocupantes__titulo">Número de Ocupantes:</h3>
                         <br>
-                        <select class="atributos__acupantes" name="quantidade__ocupantes">
+                        <select class="precos__hospedes" name="quantidade__ocupantes">
                             <option value="2">2</option>
                             <option value="4">4</option>
                             <option value="6">6</option>
                         </select>
                     </form>
-                    <div class="reservar">
-                        <a class="atributos__reservarBtn">Reservar</a>
-                        <h3 class="atributos__reservar__preco">Você ainda não será cobrado</h3>
+                    <div class="precos__reservar">
+                        <a class="precos__reservarBtn">Reservar</a>
+                        <h3 class="precos__span">Você ainda não será cobrado</h3>
 
-                        <div class="diarias__precos">
-                            <span class="diarias__precos__item item__esquerdo">R$1.500 x 2 Noites</span>
-                            <span class="diarias__precos__item item__direito">R$3.000</span>
-                            <span class="diarias__precos__item item__esquerdo">Taxa de serviço de Limpeza</span>
-                            <span class="diarias__precos__item  item__direito">$250</span>
-                            <span class="diarias__precos__item item__esquerdo" >Total(sem impostos)</span>
-                            <span class="diarias__precos__item  item__direito">R$3250</span>
+                        <div class="precos__container">
+                            <span class="precos__item precos__item--esquerdo">R$1.500 x 2 Noites</span>
+                            <span class="precos__item precos__item--direito">R$3.000</span>
+                            <span class="precos__item precos__item--esquerdo">Taxa de serviço de Limpeza</span>
+                            <span class="precos__item  precos__item--direito">$250</span>
+                            <span class="precos__item precos__item--esquerdo" >Total(sem impostos)</span>
+                            <span class="precos__item  precos__item--direito">R$3250</span>
                         </div>
                     </div>
                         
