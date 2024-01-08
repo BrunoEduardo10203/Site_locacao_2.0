@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="(width=device-width), initial-scale=1.0">
+        <title>Destino Serra - Ap's</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Kaushan+Script&family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="menu">
+                <a class="menu__titulo" href="index.html">Destino Serra</a>
+                <input type="search" class="menu__busca" placeholder="Busque seu apartamento ideal">
+                <a class="button-89 menuBtn" role="button" >Cadastrar</a>
+        </header>
+
+        <main class="fotos">
+            <div class="fotos__icones">
+                <a class="fotos__titulo">Apartamento próximo a Rua Coberta!</a>
+                <img class="fotos__icone" src="assets/images/icons/share.png" alt="Compartilhar">
+                <a class="fotos__compartilhar">Compartilhar</a>
+                <img class="fotos__icone" src="assets/images/icons/love.png" alt="Salvar">
+                <a class="fotos__salvar">Salvar</a>
+            </div>
+
+            <figure class="fotos__container">
+                <img class="fotos__item__grande" alt="Rua Coberta" src="./assets/images/apartamento-eulalia/sala_jantar.jpg">
+
+                <div class="fotos__item__menor">
+                    <img class="fotos__item fotos__item--um" alt="Interior__ap" src="./assets/images/apartamento-eulalia/vista_suite_dois.jpg">
+                    <img class="fotos__item fotos__item--dois" alt="Interior__ap" src="./assets/images/apartamento-eulalia/cozinha.jpg">
+                </div>
+                        
+                <div class="fotos__item__menor">
+                    <img class="fotos__item fotos__item--tres" alt="Interior__ap" src="./assets/images/apartamento-eulalia/banheito_suite_dois.jpg">
+                    <img class="fotos__item fotos__item--quatro" alt="Interior__ap" src="./assets/images/apartamento-eulalia/sala.jpg">
+                </div>
+            </figure>
+
+            <section class="descricao">
+                <div class="descricao__container">
+                    <div class="descricao__container__nome">
+                        <h2 class="descricao__titulo">Apartamento 200m da rua coberta</h2>
+                        <p class="descricao__quartos">4 hóspedes - 2 quartos - 2 camas - 3 banheiros</p>
+                    </div>
+                   
+                    <hr>
+
+                    <div class="quartos">
+                        <h2 class="quartos__titulo">Aonde você vai dormir</h2>
+
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="assets/images/apartamento-eulalia/suite_um.jpg" alt="Suite">
+                                    <h3 class="swiper__quarto">Quarto 1</h3>
+                                    <span class="swiper__camas">1 cama casal</span>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/apartamento-eulalia/suite_dois.jpg" alt="Quarto de Casal">
+                                    <h3 class="swiper__quarto">Quarto 2</h3>
+                                    <span class="swiper__camas">1 cama casal</span>
+                                </div>
+                            </div>
+                                
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-pagination"></div>   
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="comodidades">
+                        <h2 class="comodidades__titulo">O que esse lugar oferece</h2>
+                        <div class="comodidades__container">
+                            <span class="comodidades__item"><img src="assets/images/icons/garage-car.png">Garagem</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/tv-retro.png">TV</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/shower.png">Agua Quente</span>
+                            <!-- <span class="comodidades__item"><img src="assets/images/icons/paw.png">Pet</span> -->
+                            <span class="comodidades__item"><img src="assets/images/icons/wifi.png">Wi-fi</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/clothes-hanger.png">Cabides</span>
+                            <!-- <span class="comodidades__item"><img src="assets/images/icons/air-conditioner_quarto.png">Ar-condicionado</span> -->
+                            <span class="comodidades__item"><img src="assets/images/icons/key.png">Chave única</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/restaurant.png">Cozinha</span>
+                            <span class="comodidades__item"><img src="assets/images/icons/map-marker.png">Ótima Localização</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="precos__diarias">
+                    <h2 class="precos__diarias__preco">R$750 noite</h2>
+                    <input type="date" class="precos__calendario">
+                    <input type="date" class="precos__calendario">
+
+                    <form>
+                        <h3 class="precos__ocupantes__titulo">Número de Ocupantes:</h3>
+                        <br>
+                        <select class="precos__hospedes" name="quantidade__ocupantes">
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                        </select>
+                    </form>
+                    <div class="precos__reservar">
+                        <a class="precos__reservarBtn">Reservar</a>
+                        <h3 class="precos__span">Você ainda não será cobrado</h3>
+
+                        <div class="precos__container">
+                            <span class="precos__item precos__item--esquerdo">R$1.500 x 2 Noites</span>
+                            <span class="precos__item precos__item--direito">R$3.000</span>
+                            <span class="precos__item precos__item--esquerdo">Taxa de serviço de Limpeza</span>
+                            <span class="precos__item  precos__item--direito">$250</span>
+                            <span class="precos__item precos__item--esquerdo" >Total(sem impostos)</span>
+                            <span class="precos__item  precos__item--direito">R$3250</span>
+                        </div>
+                    </div>
+                        
+                        
+                </div>
+
+                
+            </section>
+
+            <footer class="footer">
+                <div class="footer__texto">
+                    <h2>Economize tempo, economize dinheiro!</h2>
+                    <a>Inscreva-se e enviaremos as melhores ofertas para você</a>
+                </div>
+    
+                <form class="formulario__email">
+                    <label class="email__titulo" for="email">E-mail:</label>
+                    <input class="input-email" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    <button class="button-89" role="button">Enviar</button>
+                </form>
+            </footer>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                slidesPerView: 2,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets'
+                }
+            });
+        </script>
+    </body>
+</html>
